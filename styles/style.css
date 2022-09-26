@@ -260,12 +260,12 @@
 .section-title_theme_dark {
   margin-top: 90px;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
 }
-
 
 .kaufman__triangle {
   padding: 0;
@@ -276,6 +276,7 @@
   top: 0;
   right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
 }
 
 .table_theme_dark {
@@ -312,6 +313,11 @@
   justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.footer_column {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_copyright {
