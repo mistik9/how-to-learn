@@ -1,11 +1,9 @@
-
 .two-columns__paragraph {
-    line-height: 34px;
-    margin-bottom: 30px;
-    margin-top: 0;
-  }
-  
-  .two-columns__paragraph:last-child {
-    margin: 0;
-  }
-  
+  line-height: 34px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
